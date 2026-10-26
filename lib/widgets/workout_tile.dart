@@ -21,7 +21,7 @@ class WorkoutTile extends StatelessWidget {
         child: InkWell(
           borderRadius: BorderRadius.circular(20),
 
-          // Buka halaman detail ketika kartu ditekan.
+
           onTap: () {
             Navigator.push(
               context,
